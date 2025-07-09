@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!--Rel= Relacionar - stylesheet= Folha de Estilo href= Arquivo de referencia (onde está o arquivo) styles.css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Nike New</title><!--Tags para titulo no cabeçalho fica próximo ao icone-->
+</head>
+<!-- Para reiniciar o VScode CTRL + Shift + P -->
+
+<body>
+
+    <section class="caixa-principal">
+
+        <div >
+            <div>
+                <div id="logo">
+                    <img src="./img/logo.png" class="logo-nike" alt="Logotipo da Nike"><!-- Adicionei o atributo alt -->
+                <!-- A tag (img - src) é para adicionar a imagem que está no sistema -->
+                <!-- Para alterar entrepastas para cima acrescentar mais 1 ponto ou seja colocar 2 pontos antes da barra se for 
+              mais acima sempre adicionar 2 pontos e uma barra -->
+                </div>
+                <div class="caixa-texto">
+                    <h4>R$799,00</h4><!--Tags h4 Titulo menor--><!--Tags para titulos é do (h1 ao h6)-->
+                    <h1><strong>Nike Air Zoom</strong></h1><!--Tags (h1) Titulo mais importante geralmente usado apenas uma vez-->
+                <!--Tags (strong)além de dixar apalavra destacada ( mais escura ) aumenta a relevancia nos mecanismos
+             de busca -->
+                    <p><!--Tags (p) é paragrafo-->
+                    <i>Celebre o mundo do Dynamic, um sistema de amortecimento
+                    revolucionário projetado para uma pisada surreal.</i><!--Tags (I) deixa as palavras em italico-->
+                    </p>
+                    <br><!--A tag (br) é para pular uma linha. Mas, á outras maneiras de deixar espaço entre uma palavra e outra-->
+                    <a class="botao-carrinho">
+                        <b>Adicionar ao carrinho</b> <!--Tags (b) é para deixar as palavras em negrito-->
+                    </a>
+                </div>    
+                <div class="caixa-imagem">
+                    <img src="img/nike1.png" class="nike1" alt="Imagem do tênis Nike"> <!-- Adicionei o atributo alt -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="caixa-botoes" class="caixa-botoes">
+
+        <div onclick="mudarVisual('#ccee66', 'img/nike1.png')" class="botoes verde"></div>
+
+        <div onclick="mudarVisual('#58cced', 'img/nike2.png')" class="botoes azul"></div>
+
+        <div onclick="mudarVisual('#ff9eb5', 'img/nike3.png')" class="botoes rosa"></div>
+
+    </div>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
