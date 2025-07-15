@@ -1,4 +1,5 @@
-🏀 Projeto 1 – Nike Clone
+🏀 Projeto 1 – Nike Clone.
+
 Este projeto é um clone responsivo do site da Nike, desenvolvido utilizando HTML5, CSS3 e JavaScript, com foco em design moderno e experiência de usuário semelhante ao site oficial da Nike.
 
 ---
