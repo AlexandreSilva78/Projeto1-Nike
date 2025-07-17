@@ -1,9 +1,9 @@
 🏀 <h1 alt="Projeto 1 – Nike Clone." widht="40px" align="center">Projeto 1 – Nike Clone.</h1>
 
 Este projeto é um clone responsivo do site da Nike, desenvolvido utilizando HTML5, CSS3 e JavaScript, com foco em design moderno e experiência de usuário semelhante ao site oficial da Nike.
-<br>
-  <h3 href="https://alexandresilva78.github.io/Projeto1-Nike/"  alt="Site Clone Nike Publicado >Acesse o site publicado clicando aqui. font-size="50px"></h3>
-<br>
+<p align="center">
+  🌐 Acesse o site publicado: <a href="https://alexandresilva78.github.io/Projeto1-Nike/" target="_blank">Clique aqui para ver o projeto ao vivo</a>
+</p>
   
 ---
 
